@@ -15,11 +15,6 @@ split = sentence.split("  ")
 print(f" ", split[0])
 
 
-
-
-
-
-
 #junior developers
 #"CONFIRMED : You have received 50kes from Phillip "
 
