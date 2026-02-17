@@ -14,3 +14,5 @@ for x in range(-180,+180,30):
 for x in range(-180,+180,30):
     print(f"tangent of {x} = {math.tan(x)}")
 
+
+

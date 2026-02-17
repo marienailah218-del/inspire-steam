@@ -6,7 +6,7 @@ number = int(input("enter the number x : "))
 
 factorial = 1 #initilize factorial on 1
 for x in range(1,number+1):
-    factorial * = x
+    factorial = factorial * x
 
 
-print f
+print (f"the factorial of (number)is {factorial}")

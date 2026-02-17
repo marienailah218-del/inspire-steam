@@ -2,6 +2,7 @@
 #Date: 16/2/2026
 #Program to calculate income tax
 
+
 salary = int(input("enter your gross salary :"))
 
 if salary < 50000:
@@ -10,4 +11,13 @@ if salary < 50000:
 
 print(f"gross salary = {salary}")
 print(f"net salary) = {net_salary}")
+print(f"tax = {tax}")
+
+
+if salary >= 50000 or 100000:
+    tax = (4.5 * salary) / 100
+    net_salary = salary - tax
+
+print(f"gross salary = {salary}")
+print(f"net_salary = {net_salary}")
 print(f"tax = {tax}")
