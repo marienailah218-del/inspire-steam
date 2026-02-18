@@ -11,7 +11,8 @@ diff_number = f_number - s_number
 product_number = f_number * s_number
 quotient_number = f_number / s_number
 
-print("The sum of the numbers %d")
+print("The sum of the numbers %d" %sum_number)
+print("The quotient of the numbers %0.4f " %quotient_number)
 
 #modulus-remainder
 print(7%5)

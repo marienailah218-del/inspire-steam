@@ -13,5 +13,6 @@ sn = (n/2) *(2*a) +(n-1) *d
 
 
 print(f"The nth term is : {nth_term}")
+print(f"The sum of the terms is : {sn}")
 
 

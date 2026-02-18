@@ -10,3 +10,4 @@ while number < 10 :
         break
     print("breaking from the loop")
     continue
+    number += 1
